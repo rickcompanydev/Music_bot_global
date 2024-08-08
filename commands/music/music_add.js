@@ -20,7 +20,8 @@ async function is_valid_youtube_url(url) {
 // 添加歌曲到播放列表
 async function addToPlaylist(interaction) {
     try {
-        interaction.deferReply();
+        await interaction.deferReply();
+        await interaction.editReply('Processing your request...');
 
         const songUrl = interaction.options.getString('url');
 

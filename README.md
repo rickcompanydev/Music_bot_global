@@ -37,7 +37,7 @@ https://discord.com/oauth2/authorize?client_id=1270576259231121499&permissions=2
 
 ## 本地部署
 
-1. 克隆存儲庫。
+1. 克隆存儲庫
 
   ```bash
   git clone https://github.com/rickcompanydev/Music_bot_global.git
@@ -48,17 +48,23 @@ https://discord.com/oauth2/authorize?client_id=1270576259231121499&permissions=2
   token=your bot token
   clientId=your bot APPLICATION ID
   ```
-3. 建立 Docker。
+3. 新增 cookies.json 文件
+
+  ```cookies.json
+  your youtube cookie
+  ```
+4. 建立 Docker
 
   ```bash
   docker build -t discord_music_bot .
   ```
-4. 運行 Docker
+5. 運行 Docker
   
   ```bash
   docker run --rm -it  discord-bot:latest
   ```
 
+請注意，一個IP對應一個cookie，切勿同時在不同IP使用同一個cookie以保證cookie存活。
 
 ### 貢獻
 
