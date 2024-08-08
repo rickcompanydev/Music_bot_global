@@ -1,11 +1,11 @@
 # Discord Youtube音樂機器人
 
 此 Discord 機器人旨在提供音樂播放和基礎管理功能。以下是可用的指令和功能。
-Discord.js v14
+基於`Discord.js v14`
 
 邀請連結在下方！
 
-此機器人為 https://github.com/rickwengdev/Discord-bot 的音樂輕量版，只有音樂功能並且可以直接邀請進伺服器使用，無需部署！！
+此機器人為[rickwengdev/Discord-bot](https://github.com/rickwengdev/Discord-bot)的音樂輕量版，只有音樂功能！！
 
 ## 音樂指令(目前僅支援Youtube)
 
@@ -33,7 +33,7 @@ Discord.js v14
 
 ## 邀請連結
 
-https://discord.com/oauth2/authorize?client_id=1270576259231121499&permissions=274881060352&integration_type=0&scope=bot
+[Discord Youtube音樂機器人](https://discord.com/oauth2/authorize?client_id=1270576259231121499&permissions=274881060352&integration_type=0&scope=bot)
 
 ## 本地部署
 
@@ -64,14 +64,14 @@ https://discord.com/oauth2/authorize?client_id=1270576259231121499&permissions=2
   docker run --rm -it  discord-bot:latest
   ```
 
-請注意，一個IP對應一個cookie，切勿同時在不同IP使用同一個cookie以保證cookie存活。
+請注意，`一個IP`對應一個`cookies`，切勿同時在不同IP使用同一個modified:   README.mdcookies以保證cookies存活，如您不想使用cookies可以選擇[rickwengdev/Discord-bot](https://github.com/rickwengdev/Discord-bot)或手動刪除相關代碼。
 
 ### 貢獻
 
-如果您有興趣為此機器人做出貢獻，請參閱我們的 [貢獻準則](https://github.com/rickcompanydev/Music_bot_global/blob/master/CONTRIBUTING.md)。
+如果您有興趣為此機器人做出貢獻，請參閱我們的[貢獻準則](https://github.com/rickcompanydev/Music_bot_global/blob/master/CONTRIBUTING.md)。
 
 ### 問題和反饋
 
-如果您遇到任何問題或有建議，請在 [GitHub 存儲庫](https://github.com/rickcompanydev/Music_bot_global) 中提交問題。
+如果您遇到任何問題或有建議，請在[GitHub 存儲庫](https://github.com/rickcompanydev/Music_bot_global)中提交問題。
 
 感謝您使用我們的 Discord 機器人！
