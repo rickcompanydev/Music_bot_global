@@ -97,7 +97,7 @@ client.on('ready', () => {
 
 // 客戶端準備好後輸出日誌
 client.once(Events.ClientReady, c => {
-    console.log(`就緒！已登入為 ${c.user.tag}`)
+    console.log(`✅Ready! Signed in as ${c.user.tag}`)
 });
 
 // 設置網頁伺服器
