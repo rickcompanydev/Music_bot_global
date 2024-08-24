@@ -83,7 +83,7 @@ function formatDuration(seconds) {
 }
 
 export const data = new SlashCommandBuilder()
-    .setName('download_video')
+    .setName('download_song')
     .setDescription('下載 YouTube 影片的 MP3 音頻')
     .addStringOption(option =>
         option.setName('url')
